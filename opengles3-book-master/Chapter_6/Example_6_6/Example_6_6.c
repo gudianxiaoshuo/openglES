@@ -163,7 +163,7 @@ void Draw ( ESContext *esContext )
       -0.5f, -0.5f, 0.0f,        // v1
       0.5f, -0.5f, 0.0f         // v2
    };
-   GLfloat color[3 * VERTEX_COLOR_SIZE] =
+   GLfloat color[4 * VERTEX_COLOR_SIZE] =
    {
       1.0f, 0.0f, 0.0f, 1.0f,   // c0
       0.0f, 1.0f, 0.0f, 1.0f,   // c1
